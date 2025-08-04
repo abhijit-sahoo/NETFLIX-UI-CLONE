@@ -6,7 +6,7 @@ const TitleCards = ({title,category}) => {
 
   const cardsRef = useRef();
 
-  console.log(cardsRef)
+  // console.log(cardsRef)
 
   const handleWheel = (event)=>{
     event.preventDefault();
